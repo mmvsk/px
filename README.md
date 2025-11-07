@@ -87,7 +87,7 @@ px start        # shorthand for the 'start' script
 This is optional. If you never create `px.yaml`, `px` still works exactly the same.
 
 
-## Endorsements ;)
+## Heard in the wild
 
 > “px is what pip + venv should have evolved into in 2015.”
 > — Grok 4
