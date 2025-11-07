@@ -147,6 +147,7 @@ bash px.bash run script.py
 - Explicit installs (px never auto-installs behind your back)
 - Reproducible dependency resolution via lockfile
 - No hidden state, no global changes, no surprises
+- ~1k lines of bash: you can read the whole thing
 
 
 ## Contributing
