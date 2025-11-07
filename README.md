@@ -39,10 +39,10 @@ This should not be complicated.
 - Doesn’t introduce a new packaging format
 
 ```
-px install          # create venv + install dependencies
-px add requests     # add a dependency (lockfile updates)
-px run main.py      # runs inside .venv automatically
-px exec pytest      # run any command inside the env
+px install        # create venv + install dependencies
+px add numpy      # add a dependency (lockfile updates)
+px run main.py    # runs inside .venv automatically
+px exec pytest    # run any command inside the env
 ```
 
 No ceremony.  
