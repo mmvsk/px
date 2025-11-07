@@ -1,8 +1,6 @@
-# px: Run Python code with dependencies. No activation nonsense
+# px: Run Python code with dependencies
 
-Topics
-
-Python is great until you need dependencies.
+Python is great until you need dependencies.  
 Then suddenly there are 6 different tools, 9 blog posts arguing about them, and 3 ways to “activate” something.
 
 `px` makes Python behave like a normal language:
@@ -13,7 +11,7 @@ px run script.py
 ```
 
 No venv activation. No global installs. No project restructuring.  
-Just run the code with the correct dependencies, every time.
+Just run the code with the correct dependencies.
 
 
 ## Why this exists
