@@ -1,3 +1,16 @@
+**⚠️Deprecated**
+
+Turns out `uv` actually provides the exact workflow that `px` was created for. I was late to the party, but I'm glad some sane-DX tooling finally exists in Python.
+
+So the modern approach using **`uv`** instead:
+
+```sh
+uv init .         # initialize a new project (creating pyproject.toml, uv.lock, main.py, .venv, .git, ...)
+uv add numpy      # add dependencies (same as `px add`)
+uv run script.py  # run a script without activation (same as `px run`)
+```
+
+
 # px: Run Python code with dependencies
 
 Python is great until you need dependencies.  
@@ -6,8 +19,10 @@ Then suddenly there are 6 different tools, 9 blog posts arguing about them, and 
 `px` makes Python behave like a normal language:
 
 ```
-px install
-px run script.py
+px add numpy    # add dependencies
+px run main.py  # run a script without activation
+
+# also: `px init`, `px install`, ...
 ```
 
 No venv activation. No global installs. No project restructuring.  
